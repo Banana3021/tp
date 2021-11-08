@@ -77,7 +77,7 @@ The UI consists of a `MainWindow` that is made up of parts e.g.`CommandBox`, `Re
 
 The `UI` component uses the JavaFx UI framework. The layout of these UI parts are defined in matching `.fxml` files that are in the `src/main/resources/view` folder. For example, the layout of the [`MainWindow`](https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/ui/MainWindow.java) is specified in [`MainWindow.fxml`](https://github.com/se-edu/addressbook-level3/tree/master/src/main/resources/view/MainWindow.fxml)
 
-The `UI` component,
+The `UI` component:
 
 * executes user commands using the `Logic` component.
 * listens for changes to `Model` data so that the UI can be updated with the modified data.
@@ -172,11 +172,11 @@ The 5 operators =, <, >, >=, <= are implemented using the above predicates.
 
 | Operator | Predicate |
 | ------------- | ------------- |
-| =  | `PriceEqualsNumberPredicate`  |
-| >  | `PriceGreaterThanNumberPredicate`  |
-| <  | `PriceLessThanNumberPredicate`  |
-| >=  | `PriceEqualsNumberPredicate \|\| PriceGreaterThanNumberPredicate`  |
-| <=  | `PriceEqualsNumberPredicate \|\| PriceLessThanNumberPredicate`  |
+| =  | `PriceEqualsNumberPredicate`      |
+| <  | `PriceLessThanNumberPredicate`    |
+| >  | `PriceGreaterThanNumberPredicate` |
+| >= | `PriceGreaterThanNumberPredicate` |
+| <= | `PriceLessThanNumberPredicate`    |
 
 The following activity diagram summarizes what happens when a user executes a find command:
 
@@ -533,8 +533,8 @@ _{Explain here how the data archiving feature will be implemented}_
 **Target user profile**:
 
 * plans a wedding for himself/herself
-* has a need to manage a significant number of contacts of who will be involving/in-charged for the wedding
-* prefers desktop applications over other types
+* has a need to manage a significant number of contacts of who will be involved in the wedding
+* prefers desktop applications over internet based/mobile applications
 * can type fast on keyboards
 * prefers typing to mouse interactions
 * is reasonably comfortable and prefers using CLI applications
@@ -645,7 +645,6 @@ Use case ends.
 6.  Product is not handling more than 1 user planning a wedding at once.
 7.  Should be usable by anyone who understands english without any experience in planning weddings.
 
-
 ### Glossary
 
 * **Mainstream OS**: Windows, Linux, Unix, OS-X
@@ -656,6 +655,9 @@ Use case ends.
 * **Actor**: a role played by a use case
 * **Keyword**: Keyword used to call a shortcut
 * **Command String**: Command attached to the keyword of the shortcut
+* **CLI**: Command Line Interface - takes text-based input and produces an output
+* **GUI**: Graphical User Interface - takes input via user interaction with objects/icons such as buttons, and produces an output
+* **CLI**: Command Line Interface - takes text-based input and produces an output
 
 
 --------------------------------------------------------------------------------------------------------------------
@@ -675,14 +677,14 @@ testers are expected to do more *exploratory* testing.
 
    1. Download the jar file and copy into an empty folder
 
-   1. Double-click the jar file Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum.
+   2. Double-click the jar file Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum.
 
-1. **Saving window preferences**
+2. **Saving window preferences**
 
    1. Resize the window to an optimum size. Move the window to a different location. Close the window.
 
-   1. Re-launch the app by double-clicking the jar file.<br>
-       Expected: The most recent window size and location is retained.
+   2. Re-launch the app by double-clicking the jar file.<br>
+      Expected: The most recent window size and location is retained.
 
 ### Deleting a person
 
@@ -794,28 +796,28 @@ testers are expected to do more *exploratory* testing.
 ## **Effort**
 
 1. **Difficulty level:**<br>
-   * This project has the medium high level of difficulty as all of our developers has to handle this project in the time
+   * This project has a medium high level of difficulty as all of our developers has to handle this project in the time
      of pandemic. It means that all of us have to work from home, thus making the communication harder and reduce the
      productivity.
-   * Furthermore, all of us has no prior experience of handling brown field project, and has very little experience in 
-     using JavaFX. Most of the tools used are learnt on the spot and apply directly to the project.
-   * Last but not least, this project has a very tight time constraint.
+   * Furthermore, all of us has no prior experience of handling brownfield projects, and have very little experience in 
+     using JavaFX. Most of the tools used were learnt on the spot and apply directly to the project.
 
 2. **Challenges faced:**<br>
-   * Difficulty in communication: All discussions are through Zoom(a software used for online meeting) comes with the risk of slow internet connection and issue in microphone.
-   * Responsibilities outside the project: Most of us has other responsibilities to deal with, limiting us from dedicating more time for this project.
+   * Difficulty in communication: All discussions are through Zoom (a software used for online meetings),
+     and came with the risk of slow internet connection and issue in audibility.
+   * Scheduling: external commitments made it difficult to coordinate and schedule suitable timings for our meetings.
 
 3. **Effort required:**<br>
-   * Coordinating with all the developers' schedule.
+   * Thoroughly studying the codebase and following its structure when adding new features
    * Learn the convention of writing a proper documentation.
    * Learn the tools such as JavaFX from scratch and apply directly.
 
 4. **Achievements of the project:**<br>
-   * All the deliverables for each milestone has been submitted on time.
+   * All the deliverables for each milestone have been submitted on time.
    * All the bug detected has been solved on time.
 
-5. Ultimately, this project has been quite challenging as our solution architecture involves the contacts with more entities type than the original AB3 project.
-   The additional entities involved includes `price`, `important info`, and `status`. These serves as the foundation for some features implemented and
-   requires extra time and effort to modify the existing feature to ensure the app functions as expected.
+5. Ultimately, this project has been quite challenging as our solution architecture involves the contacts with a larger variety of entities than the original AB3 project.
+   The additional entities involved include `price`, `important info`, and `status`. These serve as the foundation for some features implemented and
+   and extra time and effort was required to modify the existing features to ensure the app functions as expected.
 
 

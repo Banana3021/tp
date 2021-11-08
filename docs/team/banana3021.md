@@ -8,7 +8,7 @@ title: Ananya Ravi's Project Portfolio Page
 WedFast is a program that aims to help users plan their wedding efficiently by organising
 the contacts of all the parties involved. These contacts include important details for a
 wedding such as pricing, attendance status, and foundational components such as name, email, address, and phone number. 
-The program is a desktop based application created using JavaFx GUI, and users work with the CLI to 
+The program is a desktop based application created using JavaFX GUI, and users work with the CLI to 
 input/manage their contact details.
 
 List of my Contributions:
@@ -60,7 +60,6 @@ List of my Contributions:
 * **Contributions to Team-Based Tasks**:
      * Updating user/developer docs that are not specific to a feature, i.e writing the user stories, glossary
        and editing diagrams and content in the developer guide.
-     * Helped come up with the type, priority and severity labels for issues and PRs.
      * Setting up Gradle
      * Maintaining the issue tracker
     
