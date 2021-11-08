@@ -122,13 +122,14 @@ _Italic text_        | The name of this product or a file path.
 
 2. Ensure you have `Java 11` or above installed in your device. Not sure how to install? [Click me](https://java.com/en/download/help/download_options.html).
 
-3. Download the latest `wedfast.jar` from [here](https://github.com/AY2122S1-CS2103T-W10-4/tp/releases/download/v1.2.1/WedFast.jar).
+3. Download the latest `wedfast.jar` from [here](https://github.com/AY2122S1-CS2103T-W10-4/tp/releases/download/v1.4/WedFast.jar).
 
 4. Copy the file to the folder you want to use as the _home folder_ for your _WedFast_.
 
 5. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds.
    Note how the app contains some sample data.
-   <img src="images/Ui.png" alt="CoverPage" height="500"/>
+   
+   ![Sample](images/Sample.png)
 
 ### Using command-line interface (CLI)
 1. Type the command in the command box and press Enter to execute it.<br>
@@ -329,10 +330,6 @@ Outcome:<br>
 You will see only the contacts with `florist` and `caterer` tag as well as having the price of at least `100.00` dollars
 ![find contact](images/findContact.png)
 
-**:exclamation:Caution:**<br>
-Find currently only supports name, tags and price range. Price range operators include =, >, <, >=, <=.
-Furthermore, the price must be entered with 2 decimal points.
-
 ### Deleting a person : `delete`
 This feature allows you to remove a person entry in your contact that you no longer wish to track in the future.
 
@@ -408,21 +405,21 @@ To undo the last change that was made to the contact list:
 
 Examples and expected outcomes for undoing 'delete' command:
 * 3rd contact is deleted with command `delete 3`:
-   ![delete by index](images/UndoDelete1.png)
+   ![delete by index](images/undoDelete1.png)
 * Undo the deletion with command `undo`:
-   ![undo delete by index](images/UndoDelete2.png)
+   ![undo delete by index](images/undoDelete2.png)
 
 Examples and expected outcomes for undoing 'group' command:
 * Group `Charlotte Oliveiro` and `Andy Robin` under the tag `Bus` with command `group t/Bus n/Charlotte Oliveiro, Andy Robin`:<br>
-   ![group](images/UndoGroup1.png)
+   ![group](images/undoGroup1.png)
 * Undo the grouping with command `undo`
-   ![group](images/UndoGroup2.png)
+   ![group](images/undoGroup2.png)
 
 Examples and expected outcomes for undoing 'clear' command:
 * Clear all person entries in the contact list with command `clear`:
-  ![clear](images/UndoClear1.png)
+  ![clear](images/undoClear1.png)
 * Undo the clear with command `undo`:
-  ![clear](images/UndoClear2.png)
+  ![clear](images/undoClear2.png)
 
 ### Counting down to the wedding day : `countdown`
 This feature helps you calculate how many days are left before your wedding so that you have an idea of how much time you
@@ -502,7 +499,8 @@ To view the report
 
 Example and expected outcome:<br>
 * `report`:
-  ![report](images/ReportWindow.png)
+  ![report](images/reportWindow.png)
+
 
 <div style="page-break-after: always;"></div>
 
@@ -545,6 +543,8 @@ This feature allows you to list down the shortcut added.
 To view all shortcuts available for the user:
 1. Type the command: `listsc` in the command box.
 2. Press Enter
+
+![listsc](images/ListShortcut.png)
 
 <div markdown="block" class="alert alert-success">
 
