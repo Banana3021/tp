@@ -60,10 +60,7 @@ List of my Contributions:
 * **Contributions to Team-Based Tasks**:
      * Updating user/developer docs that are not specific to a feature, i.e writing the user stories, glossary
        and editing diagrams and content in the developer guide.
-     * Setting up Gradle
-     * Maintaining the issue tracker
-    
-
+       
 * **Review/Mentoring Contributions**:
      * PRs reviewed:
        [\#37](https://github.com/AY2122S1-CS2103T-W10-4/tp/pull/37)

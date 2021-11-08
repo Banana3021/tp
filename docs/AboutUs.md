@@ -31,7 +31,8 @@ We are a team based in the [School of Computing, National University of Singapor
 
 <img src="images/yin72257.png" width="200px">
 
-[[github](http://github.com/yin72257)] [[portfolio](team/yin72257.md)]
+[[github](http://github.com/yin72257)]
+[[portfolio](team/yin72257.md)]
 
 * Role: Developer
 * Responsibilities: Feature development
@@ -40,7 +41,7 @@ We are a team based in the [School of Computing, National University of Singapor
 
 <img src="images/linda124.png" width="200px">
 
-[[github](http://github.com/linda124)]
+[[github](http://github.com/Linda124)]
 [[portfolio](team/linda124.md)]
 
 * Role: Developer
